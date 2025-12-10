@@ -4,6 +4,48 @@
  */
 
 const portfolioProjects = {
+  'hse': {
+    title: 'HSE Incident Reporter',
+    category: 'Mobile App & Full Stack',
+    platform: 'iOS & Android (Flutter)',
+    technology: 'Flutter/Dart, Java Spring Boot, MySQL',
+    date: 'November 2025',
+    github: '',
+    playstore: '',
+    images: [
+      'assets/img/mobileapps/hse/hse1.png',
+      'assets/img/mobileapps/hse/hse2.png'
+    ],
+    description: [
+      'HSE (Health, Safety & Environment) Incident Reporter is a comprehensive full-stack mobile application designed for workplace safety management. Built with Flutter for cross-platform compatibility and Java Spring Boot backend, it enables workers and safety officers to report and manage incidents efficiently.',
+      'The app features offline-first architecture, allowing users to report incidents even without internet connectivity. Once online, reports sync automatically to the central database. With photo attachments, GPS location tracking, and incident management features, it provides a complete solution for workplace safety compliance.'
+    ],
+    features: [
+      'Simple, focused incident reporting interface',
+      'My Incidents - View and manage your submitted reports',
+      'Advanced search functionality to find incidents quickly',
+      'Offline-first architecture - Works without internet connection',
+      'Manual sync control - Sync reports when online',
+      'Photo attachments - Capture and attach incident evidence',
+      'GPS location tracking - Automatic incident location capture',
+      'Incident status tracking and updates',
+      'Role-based access for workers and safety managers',
+      'Push notifications for incident updates'
+    ],
+    technical: [
+      'The mobile app is built with Flutter/Dart ensuring cross-platform compatibility for iOS and Android. Implements offline-first architecture using local SQLite database with automatic background synchronization when network is available.',
+      'Java Spring Boot backend provides RESTful APIs for incident management, user authentication, and data synchronization. MySQL database stores incident reports, user data, and media files. The app uses device GPS for automatic location capture and integrates native camera APIs for photo attachments. State management handled with Provider pattern for efficient data flow.'
+    ],
+    useCases: [
+      'Construction workers reporting safety incidents on-site',
+      'Manufacturing facilities tracking workplace accidents',
+      'Safety officers managing and investigating incidents',
+      'Oil and gas industry HSE compliance reporting',
+      'Warehouse and logistics incident documentation',
+      'Corporate offices tracking near-miss incidents',
+      'Regulatory compliance and audit trail maintenance'
+    ]
+  },
   'parking': {
     title: 'Parking Spot App',
     category: 'Mobile App & Full Stack',
