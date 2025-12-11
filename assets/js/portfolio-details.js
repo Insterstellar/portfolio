@@ -14,7 +14,8 @@ const portfolioProjects = {
     playstore: '',
     images: [
       'assets/img/mobileapps/hse/hse1.png',
-      'assets/img/mobileapps/hse/hse2.png'
+      'assets/img/mobileapps/hse/hse2.png',
+      'assets/img/mobileapps/hse/hse3.png'
     ],
     description: [
       'HSE (Health, Safety & Environment) Incident Reporter is a comprehensive full-stack mobile application designed for workplace safety management. Built with Flutter for cross-platform compatibility and Java Spring Boot backend, it enables workers and safety officers to report and manage incidents efficiently.',
