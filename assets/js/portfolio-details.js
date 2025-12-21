@@ -47,6 +47,49 @@ const portfolioProjects = {
       'Regulatory compliance and audit trail maintenance'
     ]
   },
+  'inkaura': {
+    title: 'LopesStudio - Tattoo Artist Booking',
+    category: 'Mobile App & Full Stack',
+    platform: 'iOS & Android (Flutter)',
+    technology: 'Flutter/Dart, Java Spring Boot, MySQL, Google Maps API',
+    date: 'December 2025',
+    github: '',
+    playstore: '',
+    images: [
+      'assets/img/mobileapps/tattoo/tattoo1.png',
+      'assets/img/mobileapps/tattoo/tattoo2.png',
+      'assets/img/mobileapps/tattoo/tattoo3.png'
+    ],
+    description: [
+      'LopesStudio is a comprehensive full-stack mobile application that connects tattoo enthusiasts with skilled artists in their area. Built with Flutter for seamless cross-platform experience and Java Spring Boot backend, it revolutionizes how people discover and book tattoo artists.',
+      'The app features a powerful "Near Me" location-based search, allowing users to explore artist portfolios, read authentic reviews, and find the perfect match for their style. With real-time availability updates, secure payment processing, and personalized artist recommendations, LopesStudio makes booking tattoo appointments effortless and inspiring.'
+    ],
+    features: [
+      'Near Me feature - Location-based artist discovery using GPS',
+      'Artist portfolios with photo galleries and style specializations',
+      'Authentic user reviews and ratings system',
+      'Real-time availability calendar and appointment scheduling',
+      'Waitlist system for fully booked artists',
+      'Secure payment processing and transaction history',
+      'Appointment reminders via push notifications',
+      'Personalized artist suggestions based on preferences',
+      'In-app messaging between clients and artists',
+      'Saved favorites and booking history'
+    ],
+    technical: [
+      'The mobile app is built with Flutter/Dart for iOS and Android platforms. Integrates Google Maps API for location-based artist search and distance calculations. State management handled with Provider/Riverpod for efficient data flow and real-time updates.',
+      'Java Spring Boot backend provides RESTful APIs for user management, booking system, payment processing, and notification services. MySQL database stores user profiles, artist portfolios, appointments, and reviews. Implements JWT authentication for secure access and real-time WebSocket connections for instant messaging. Payment integration with Stripe/PayPal APIs for secure transactions.'
+    ],
+    useCases: [
+      'Tattoo enthusiasts searching for local artists',
+      'First-time clients finding trustworthy artists through reviews',
+      'Travelers looking for artists in new cities',
+      'Artists managing their schedules and client bookings',
+      'Clients tracking appointment history and upcoming sessions',
+      'Users discovering new artists based on style preferences',
+      'Managing waitlists for popular tattoo artists'
+    ]
+  },
   'parking': {
     title: 'Parking Spot App',
     category: 'Mobile App & Full Stack',
