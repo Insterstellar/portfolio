@@ -5,7 +5,7 @@
 
 const portfolioProjects = {
   'hse': {
-    title: 'HSE Incident Reporter',
+    title: 'ECOVIGIL - HSE Incident Reporter',
     category: 'Mobile App & Full Stack',
     platform: 'iOS & Android (Flutter)',
     technology: 'Flutter/Dart, Java Spring Boot, MySQL',
@@ -18,7 +18,7 @@ const portfolioProjects = {
       'assets/img/mobileapps/hse/hse3.png'
     ],
     description: [
-      'HSE (Health, Safety & Environment) Incident Reporter is a comprehensive full-stack mobile application designed for workplace safety management. Built with Flutter for cross-platform compatibility and Java Spring Boot backend, it enables workers and safety officers to report and manage incidents efficiently.',
+      'ECOVIGIL is a comprehensive full-stack HSE (Health, Safety & Environment) Incident Reporter mobile application designed for workplace safety management. Built with Flutter for cross-platform compatibility and Java Spring Boot backend, it enables workers and safety officers to report and manage incidents efficiently.',
       'The app features offline-first architecture, allowing users to report incidents even without internet connectivity. Once online, reports sync automatically to the central database. With photo attachments, GPS location tracking, and incident management features, it provides a complete solution for workplace safety compliance.'
     ],
     features: [
@@ -128,19 +128,19 @@ const portfolioProjects = {
     ]
   },
   'wifiranger': {
-    title: 'WiFi Distance Catcher',
+    title: 'Wifi Ranger',
     category: 'Mobile App',
     platform: 'Android & iOS (Flutter + Java)',
     technology: 'Java, Android SDK, Flutter/Dart',
     date: 'January 2023',
     github: 'https://github.com/Insterstellar/wifidistancecatcher',
-    playstore: 'https://groups.google.com/g/wifiranger',
+    playstore: 'https://play.google.com/store/apps/details?id=com.wificatcher.wifi_distance_catcher&pli=1',
     images: [
       'assets/img/mobileapps/wifiranger/newimage.png',
       'assets/img/mobileapps/wifiranger/image2.png'
     ],
     description: [
-      'WiFi Distance Catcher is a powerful Android and iOS application that helps users measure and analyze the distance to WiFi access points. Originally developed in Java for Android, it has been enhanced with Flutter for cross-platform compatibility.',
+      'Wifi Ranger is a powerful Android and iOS application that helps users measure and analyze the distance to WiFi access points. Originally developed in Java for Android, it has been enhanced with Flutter for cross-platform compatibility.',
       'The app uses signal strength measurements and advanced algorithms to calculate approximate distances to WiFi sources, making it ideal for network administrators, WiFi enthusiasts, and anyone interested in understanding their wireless environment.'
     ],
     features: [
@@ -355,7 +355,7 @@ const portfolioProjects = {
     title: 'Parking Analytics Dashboard',
     category: 'Backend & Dashboard',
     platform: 'Web Application',
-    technology: 'Angular, Java Spring Boot, MySQL, Chart.js',
+    technology: 'Bootstrap 5.3.3, Vanilla JS, ApexCharts, Gulp 4.0.2, Java Spring Boot, MySQL',
     date: 'March 2023',
     github: 'https://github.com/Insterstellar/ParkingSpotDashboard',
     demo: '',
@@ -365,21 +365,23 @@ const portfolioProjects = {
     ],
     description: [
       'A comprehensive administrative dashboard for the Parking Spot App, providing real-time analytics and management tools for parking lot operators and administrators.',
-      'The dashboard offers detailed insights into parking utilization, revenue tracking, user behavior, and operational metrics through interactive charts and data visualizations.'
+      'The dashboard offers detailed insights into parking utilization, revenue tracking, user behavior, and operational metrics through interactive charts and data visualizations. Built with modern vanilla JavaScript and Bootstrap for optimal performance.'
     ],
     features: [
-      'Real-time parking occupancy monitoring',
-      'Revenue and transaction analytics',
+      'Real-time parking occupancy monitoring with BrowserSync',
+      'Revenue and transaction analytics with ApexCharts',
       'User activity and behavior tracking',
       'Booking history and reports generation',
       'Parking lot management and configuration',
       'Interactive charts and data visualization',
       'Role-based access control for administrators',
-      'Export functionality for reports and data'
+      'Export functionality for reports and data',
+      'SweetAlert2 for notifications and confirmations',
+      'Boxicons for modern iconography'
     ],
     technical: [
-      'Frontend built with Angular framework using TypeScript. Implements responsive design with Angular Material components for consistent UI/UX.',
-      'Backend powered by Java Spring Boot RESTful APIs. MySQL database stores operational data with optimized queries for real-time analytics. Chart.js and D3.js libraries provide dynamic data visualizations.'
+      'Frontend built with vanilla JavaScript and Bootstrap 5.3.3 for responsive design. Uses HTML with @@include directives for modular component architecture. Gulp 4.0.2 automates build tasks and BrowserSync enables live reload on port 3002.',
+      'Backend powered by Java Spring Boot RESTful APIs. MySQL database stores operational data with optimized queries for real-time analytics. ApexCharts library provides dynamic and interactive data visualizations. SweetAlert2 handles user alerts and modal dialogs. Boxicons provides scalable vector icons throughout the interface.'
     ],
     useCases: [
       'Parking lot managers monitoring daily operations',
@@ -387,6 +389,54 @@ const portfolioProjects = {
       'Operations teams managing multiple parking locations',
       'Financial analysts reviewing transaction data',
       'Customer service teams accessing booking information'
+    ]
+  },
+  'hsedashboard': {
+    title: 'ECOVIGIL - HSE Incident Management Dashboard',
+    category: 'Backend & Dashboard',
+    platform: 'Web Application',
+    technology: 'Bootstrap 5.3.3, Vanilla JS, ApexCharts, Gulp 4.0.2, Java Spring Boot, MySQL',
+    date: 'November 2025',
+    github: '',
+    demo: '',
+    images: [
+      'assets/img/dashboards/hse/hse1.png',
+      'assets/img/dashboards/hse/hse2.png',
+      'assets/img/dashboards/hse/hse3.png',
+      'assets/img/dashboards/hse/hse4.png',
+      'assets/img/dashboards/hse/hse5.png'
+    ],
+    description: [
+      'A comprehensive administrative dashboard for the ECOVIGIL HSE Incident Reporter mobile application, providing real-time analytics and management tools for safety officers and administrators to monitor workplace incidents.',
+      'The dashboard offers detailed insights into incident trends, severity analysis, response times, and compliance metrics through interactive charts and data visualizations. Built with modern vanilla JavaScript and Bootstrap for optimal performance and maintainability.'
+    ],
+    features: [
+      'Real-time incident monitoring with BrowserSync',
+      'Incident status tracking and management',
+      'Severity analysis and categorization with ApexCharts',
+      'Location-based incident mapping with GPS data',
+      'Photo evidence viewing and management',
+      'Response time analytics and reporting',
+      'Trend analysis and predictive insights',
+      'Compliance tracking and audit reports',
+      'Role-based access for safety officers and managers',
+      'Export functionality for regulatory reporting',
+      'Incident investigation workflow management',
+      'Team assignment and notification system with SweetAlert2',
+      'Modern UI with Boxicons iconography'
+    ],
+    technical: [
+      'Frontend built with vanilla JavaScript and Bootstrap 5.3.3 for responsive, mobile-first design. Uses HTML with @@include directives for component partials and modular architecture. Gulp 4.0.2 handles build automation, file concatenation, and BrowserSync enables live reload development on port 3002.',
+      'Backend powered by Java Spring Boot RESTful APIs with MySQL database for incident data storage. Optimized queries handle large volumes of incident records efficiently. ApexCharts library provides interactive and animated data visualizations for safety metrics and trends. SweetAlert2 handles user notifications and confirmation dialogs. Boxicons provides scalable vector icons throughout the interface. Integration with ECOVIGIL mobile app APIs ensures seamless data synchronization.'
+    ],
+    useCases: [
+      'Safety officers managing workplace incidents in real-time',
+      'HSE managers analyzing incident trends and patterns',
+      'Compliance officers generating regulatory reports',
+      'Operations teams tracking incident response times',
+      'Management reviewing safety performance metrics',
+      'Auditors accessing incident history and documentation',
+      'Investigation teams reviewing incident details and evidence'
     ]
   },
   'dashboard2': {
