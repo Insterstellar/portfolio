@@ -355,7 +355,7 @@ const portfolioProjects = {
     title: 'Parking Analytics Dashboard',
     category: 'Backend & Dashboard',
     platform: 'Web Application',
-    technology: 'Bootstrap 5.3.3, Vanilla JS, ApexCharts, Gulp 4.0.2, Java Spring Boot, MySQL',
+    technology: 'Angular, Java Spring Boot, MySQL, Chart.js',
     date: 'March 2023',
     github: 'https://github.com/Insterstellar/ParkingSpotDashboard',
     demo: '',
@@ -365,23 +365,22 @@ const portfolioProjects = {
     ],
     description: [
       'A comprehensive administrative dashboard for the Parking Spot App, providing real-time analytics and management tools for parking lot operators and administrators.',
-      'The dashboard offers detailed insights into parking utilization, revenue tracking, user behavior, and operational metrics through interactive charts and data visualizations. Built with modern vanilla JavaScript and Bootstrap for optimal performance.'
+      'The dashboard offers detailed insights into parking utilization, revenue tracking, user behavior, and operational metrics through interactive charts and data visualizations. Built with Angular framework for robust single-page application architecture.'
     ],
     features: [
-      'Real-time parking occupancy monitoring with BrowserSync',
-      'Revenue and transaction analytics with ApexCharts',
+      'Real-time parking occupancy monitoring',
+      'Revenue and transaction analytics',
       'User activity and behavior tracking',
       'Booking history and reports generation',
       'Parking lot management and configuration',
-      'Interactive charts and data visualization',
+      'Interactive charts and data visualization with Chart.js',
       'Role-based access control for administrators',
       'Export functionality for reports and data',
-      'SweetAlert2 for notifications and confirmations',
-      'Boxicons for modern iconography'
+      'Responsive design with Angular Material'
     ],
     technical: [
-      'Frontend built with vanilla JavaScript and Bootstrap 5.3.3 for responsive design. Uses HTML with @@include directives for modular component architecture. Gulp 4.0.2 automates build tasks and BrowserSync enables live reload on port 3002.',
-      'Backend powered by Java Spring Boot RESTful APIs. MySQL database stores operational data with optimized queries for real-time analytics. ApexCharts library provides dynamic and interactive data visualizations. SweetAlert2 handles user alerts and modal dialogs. Boxicons provides scalable vector icons throughout the interface.'
+      'Frontend built with Angular framework using TypeScript. Implements responsive design with Angular Material components for consistent UI/UX. Uses reactive programming with RxJS for efficient data flow and state management.',
+      'Backend powered by Java Spring Boot RESTful APIs. MySQL database stores operational data with optimized queries for real-time analytics. Chart.js and D3.js libraries provide dynamic data visualizations. Component-based architecture ensures maintainability and scalability.'
     ],
     useCases: [
       'Parking lot managers monitoring daily operations',
