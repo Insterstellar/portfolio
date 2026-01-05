@@ -397,7 +397,7 @@ const portfolioProjects = {
     technology: 'Bootstrap 5.3.3, Vanilla JS, ApexCharts, Gulp 4.0.2, Java Spring Boot, MySQL',
     date: 'November 2025',
     github: '',
-    demo: '',
+    demo: 'https://insterstellar.github.io/hse-dashboard/dashboard.html',
     images: [
       'assets/img/dashboards/hse/hse1.png',
       'assets/img/dashboards/hse/hse2.png',
